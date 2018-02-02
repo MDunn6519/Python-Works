@@ -31,8 +31,10 @@ def fib_tab(n: int) -> int:
 def main() -> int:
     my_diction = {}
 
-    f = fib_memoization(6, my_diction)
+    f = fib_memoization(10, my_diction)
+    t = fib_tab(10)
     print(f)
+    print(t)
 
 
 if __name__ == '__main__':
